@@ -3,9 +3,9 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('<html><body style="font-family:sans-serif;text-align:center;padding-top:50px;"><h1>🔴 RedDragon WhatsApp Bot is Active!</h1><p>Running live on Railway cloud infrastructure.</p></body></html>');
+  res.send('RedDragon Bot is running successfully on Railway!');
 });
 
 app.listen(PORT, () => {
-  console.log(`RedDragon server listening on port ${PORT}`);
+  console.log(`Server is listening on port ${PORT}`);
 });
