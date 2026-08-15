@@ -2,9 +2,9 @@
   "name": "red-dragon-bot",
   "version": "1.0.0",
   "description": "Red Dragon WhatsApp Bot",
-  "main": "run.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node run.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
